@@ -1,14 +1,25 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-    cout<<"Enter Number : ";
-    int n;
-    cin>>n;
+int  SumN(int a ){
     int sum=0;
-    for(int i=1;i<=n;i++){
+    for(int i=0;i<=a;i++){
         sum+=i;
     }
-    cout<<"Sum of first "<<n<<" numbers is "<<sum;
+    return sum;
+}
+
+
+int main(){
+    // cout<<"Enter Number : ";
+    // int n;
+    // cin>>n;
+    // int sum=0;
+    // for(int i=1;i<=n;i++){
+    //     sum+=i;
+    // }
+    // cout<<"Sum of first "<<n<<" numbers is "<<sum;
+
+cout<<    SumN(5);
     return 0;
 }
