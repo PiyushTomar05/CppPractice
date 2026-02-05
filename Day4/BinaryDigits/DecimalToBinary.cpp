@@ -14,9 +14,6 @@ int dectoBinary(int n){
 }
 int main() {
     int n=50;
-    
-
     cout<<dectoBinary(n);
-    
     return 0;
 }
