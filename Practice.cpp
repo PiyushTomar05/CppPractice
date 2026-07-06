@@ -1,1 +1,1 @@
-// create a structred node insert value address part of it using previous pointer
+//Max Consecutive one
